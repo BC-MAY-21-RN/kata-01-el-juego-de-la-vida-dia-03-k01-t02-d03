@@ -1,7 +1,7 @@
 const Cell = require('../../src/models/Cell');
 const { DEAD, ALIVE } = require('../../src/states');
 
-describe('test Cell rules', () => {
+describe('Test in Cell class', () => {
 
   test('any dead cell with exactly three live neighbours becomes a live cell', () => {
     const cell = new Cell(DEAD);
